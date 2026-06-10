@@ -1,0 +1,50 @@
+[
+  {
+    "id": "GVA-VRB",
+    "from_airport": "GVA",
+    "from_name": "Geneva Airport",
+    "to_resort": "verbier",
+    "to_name": "Verbier",
+    "distance_km": 160
+  },
+  {
+    "id": "GVA-ZMT",
+    "from_airport": "GVA",
+    "from_name": "Geneva Airport",
+    "to_resort": "zermatt",
+    "to_name": "Zermatt",
+    "distance_km": 230
+  },
+  {
+    "id": "GVA-DAV",
+    "from_airport": "GVA",
+    "from_name": "Geneva Airport",
+    "to_resort": "davos",
+    "to_name": "Davos",
+    "distance_km": 390
+  },
+  {
+    "id": "ZRH-VRB",
+    "from_airport": "ZRH",
+    "from_name": "Zurich Airport",
+    "to_resort": "verbier",
+    "to_name": "Verbier",
+    "distance_km": 280
+  },
+  {
+    "id": "ZRH-ZMT",
+    "from_airport": "ZRH",
+    "from_name": "Zurich Airport",
+    "to_resort": "zermatt",
+    "to_name": "Zermatt",
+    "distance_km": 220
+  },
+  {
+    "id": "ZRH-DAV",
+    "from_airport": "ZRH",
+    "from_name": "Zurich Airport",
+    "to_resort": "davos",
+    "to_name": "Davos",
+    "distance_km": 150
+  }
+]

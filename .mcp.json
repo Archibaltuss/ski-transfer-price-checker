@@ -1,0 +1,10 @@
+{
+  "context7": {
+    "command": "npx",
+    "args": ["-y", "@upstash/context7-mcp"]
+  },
+  "aidex": {
+    "command": "npx",
+    "args": ["-y", "aidex-mcp"]
+  }
+}
