@@ -8,9 +8,10 @@ from pydantic import BaseModel, Field
 
 app = FastAPI()
 
-_cors_origins = os.environ.get(
-    "CORS_ORIGINS", "http://localhost:5173"
-).split(",")
+_cors_origins = [
+    o.strip()
+    for o in os.environ.get("CORS_ORIGINS", "http://localhost:5173").split(",")
+]
 
 app.add_middleware(
     CORSMiddleware,
